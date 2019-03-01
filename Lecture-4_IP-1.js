@@ -1,8 +1,10 @@
 let count = 0;
 let n = 0;
 let m = n;
+let i = 2;
 
-	for (i = 2; i < count+10000000000; i++) {
+	while (count<10001) {
+		i++;
 		console.log("i = "+i);
 		for (j = 2; j < i; j++) {
 			//console.log("j = "+j);
